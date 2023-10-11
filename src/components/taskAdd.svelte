@@ -89,8 +89,8 @@
         <div>
             <InputSubTask bind:inputValueSubTask />
             <div class="w-1/2">
-                <button on:click={cancelAddSubTask} class="border-2 border-red-400 text-red-400 mt-2 py-1 px-2 hover:bg-red-400 hover:text-white">Voltar</button>
-                <button on:click={addSubTaskArray} class="text-indigo-600 mt-2 ms-2 py-1 px-2 hover:bg-indigo-600 hover:text-white border-2 border-indigo-600">Adicionar</button>
+                <button on:click={cancelAddSubTask} class="border-2 border-red-400 text-red-400 mt-2 me-2 py-1 px-2 hover:bg-red-400 hover:text-white">Voltar</button>
+                <button on:click={addSubTaskArray} class="text-indigo-600 mt-2 py-1 px-2 hover:bg-indigo-600 hover:text-white border-2 border-indigo-600">Adicionar</button>
             </div>
         </div>
     {:else}
