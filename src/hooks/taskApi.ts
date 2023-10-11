@@ -7,7 +7,7 @@ import type { UuidDto } from '../dto/uuidDto';
 import type { SubTaskGetApiDto } from '../dto/SubTaskGetApiDto';
 
 const api = axios.create({
-    baseURL: "http://localhost:8000/",
+    baseURL: "https://todo-backend-production-7dab.up.railway.app/",
 });
 
 export const taskApi = () => ({
