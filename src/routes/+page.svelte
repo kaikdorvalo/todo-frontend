@@ -94,7 +94,7 @@
 </script>
 
 <div class="bg-zinc-100 h-screen pb-20 overflow-auto">
-    <div class="max-w-lg mx-auto">
+    <div class="max-w-lg mx-auto px-4">
         <h1 class="text-2xl max-w-lg mx-auto pt-8 pb-3 text-center">To-Do List</h1>
         
             <Notify bind:elementNotify bind:elementNotifyProgress bind:elementNotifyProgressColor bind:textNotify />    
